@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    height: 100px;
+    border-bottom: rgb(213, 213, 213) 1px solid;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header a:hover {
+    opacity: 80%;
+  }
+  
+  #study-detail {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .detail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .detail-card h3 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  .badge-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .badge {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    font-weight: 600;
+  }
+  
